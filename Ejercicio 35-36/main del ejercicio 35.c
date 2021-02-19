@@ -40,7 +40,7 @@ int main() {
 		}
 		printf("\nNombre:\n");
 		fflush(stdin);
-		gets(persona1.nombre);*/
+		gets(persona1.nombre);
 		printf("\nApellido: \n");
 		gets(persona1.apellido);
 		fflush(stdin);
