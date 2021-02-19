@@ -1,7 +1,7 @@
 /* EJERCICIO 35:
-Hacer un programa que tome los datos de contacto de una persona (Nombre, Apellido, edad, telÈfono, mail) y los cargue, en forma directa, en una pila de memoria din·mica. 
-Imprimir en pantalla y cargar en un archivo llamado "contactos.dat", de organizaciÛn secuencial, los registros ingresados por el usuario si la persona tiene 
-una edad mayor a 21 aÒos. */
+Hacer un programa que tome los datos de contacto de una persona (Nombre, Apellido, edad, tel√©fono, mail) y los cargue, en forma directa, en una pila de memoria din√°mica. 
+Imprimir en pantalla y cargar en un archivo llamado "contactos.dat", de organizaci√≥n secuencial, los registros ingresados por el usuario si la persona tiene 
+una edad mayor a 21 a√±os. */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -38,7 +38,7 @@ int main() {
 			printf("\nError\n");
 			return 0;
 		}
-	/*	printf("\nNombre:\n");
+		printf("\nNombre:\n");
 		fflush(stdin);
 		gets(persona1.nombre);*/
 		printf("\nApellido: \n");
@@ -48,7 +48,7 @@ int main() {
 		fflush(stdin);
 		scanf("%d", &persona1.edad);
 		fflush(stdin);
-	/*	printf("\nTelefono: \n");
+		printf("\nTelefono: \n");
 		fflush(stdin);
 		scanf("%d", &persona1.telefono); 
 		printf("\nMail: \n");
@@ -76,7 +76,7 @@ int main() {
 		return 0;
 	}
 	nuevo=ultimo;
-/*	while(nuevo)
+	while(nuevo)
 	{
 	
 		printf("\nNombre: %s\n",nuevo->persona.nombre );
@@ -85,7 +85,7 @@ int main() {
 		printf("\nTelefono: %l\n", nuevo->persona.telefono);
 		printf("\nMail: %s\n",nuevo->persona.mail);
 		nuevo=nuevo->siguiente;
-	}*/
+	}
 	nuevo=ultimo;
 	while(nuevo)
 	{
